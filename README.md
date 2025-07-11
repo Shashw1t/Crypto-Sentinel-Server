@@ -6,21 +6,23 @@ A fullstack B2G crypto wallet de-anonymization platform designed to identify and
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Layer          | Tech                                                                 |
 |----------------|----------------------------------------------------------------------|
 | Frontend       | React.js, Electron                                                   |
 | Backend        | Node.js, Express.js, MongoDB, Redis                                  |
 | ML/AI Layer    | BERT4CRYPTO (Transformer model), TensorFlow                          |
-| Data Pipeline  | Python, BeautifulSoup, Requests, Tor Network Scraping                |
-| DevOps         | AWS EC2, PM2, Nginx, GitHub Actions (CI/CD)                          |
-| Visualization  | Force-directed Graphs (D3.js / Cytoscape)                            |
+| Data Pipeline  | Python, Tor Network Scraping                |
+| DevOps         | AWS EC2, GitHub Actions (CI/CD)                          |
+| Visualization  | Force-directed Graphs, Figma                          |
 | Data Storage   | MongoDB (NoSQL for wallet metadata), Redis (in-memory for scoring)   |
 
 ---
 
 ## Demo Screenshots
+<img width="1919" height="900" alt="Cryptosentinel" src="https://github.com/user-attachments/assets/c6207d47-795e-4c5b-9cba-fc6885d95a1d" />
+
 
 ## System Architecture
 
@@ -49,7 +51,7 @@ A fullstack B2G crypto wallet de-anonymization platform designed to identify and
 
 ---
 
-## 📦 Installation
+## Installation (this is only the server)
 
 ```bash
 # Clone the repo
